@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mx:Application xmlns:mx="http://www.macromedia.com/2003/mxml">
+
+    <mx:Script>
+
+        function menuHandler(event) {
+
+            alert("Label: "+event.menuItem.attributes.label+" Data: "+event.menuItem.attributes.data, "Clicked menu item");
+
+        }
+
+    </mx:Script>
+
+    <mx:MenuBar width="450" change="menuHandler(event)">
+        <mx:dataProvider>
+            <mx:XML>
+                <menuitem label="Menu1">
+                    <menuitem label="MenuItem 1-A" data="1A"/>
+                    <menuitem label="MenuItem 1-B" data="1B"/>
+                </menuitem>
+                <menuitem label="Menu2">
+                    <menuitem label="MenuItem 2-A" type="check"  data="2A"/>
+                    <menuitem type="separator" />
+                    <menuitem label="MenuItem 2-B" >
+                        <menuitem label="SubMenuItem 3-A" type="radio" groupName="one" data="3A"/>
+                        <menuitem label="SubMenuItem 3-B" type="radio" groupName="one" data="3B"/>
+                        <menuitem label="SubMenuItem 3-C" type="radio" groupName="one" data="3C" />
+                    </menuitem>
+                </menuitem>
+            </mx:XML>
+        </mx:dataProvider>
+    </mx:MenuBar>
+
+</mx:Application>
