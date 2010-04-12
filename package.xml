@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.9.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
-http://pear.php.net/dtd/tasks-1.0.xsd
-http://pear.php.net/dtd/package-2.0
-http://pear.php.net/dtd/package-2.0.xsd">
+<package packagerversion="1.9.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
  <name>XML_MXML</name>
  <channel>pear.php.net</channel>
  <summary>Framework to build Macromedia Flex applications.</summary>
@@ -15,8 +12,7 @@ http://pear.php.net/dtd/package-2.0.xsd">
   You can also use MXML to declaratively define nonvisual aspects of an application,
   such as access to server-side data sources and data bindings between 
   user-interface components and server-side data sources.
-  The API follows closely Stephan Schmidts XUL-Package.
- </description>
+  The API follows closely Stephan Schmidts XUL-Package.</description>
  <lead>
   <name>Markus Nix</name>
   <user>mnx</user>
@@ -24,7 +20,7 @@ http://pear.php.net/dtd/package-2.0.xsd">
   <active>yes</active>
  </lead>
  <date>2010-04-12</date>
- <time>19:26:16</time>
+ <time>19:29:37</time>
  <version>
   <release>0.3.0</release>
   <api>0.3.0</api>
@@ -38,169 +34,19 @@ http://pear.php.net/dtd/package-2.0.xsd">
 Initial release.
  </notes>
  <contents>
-  <dir name="/">
-   <dir name="examples">
-    <dir name="flex">
-     <file baseinstalldir="XML" name="components.html" role="test" />
-     <file baseinstalldir="XML" name="hello.html" role="test" />
-     <file baseinstalldir="XML" name="mediaplayback.html" role="test" />
-     <file baseinstalldir="XML" name="menubar.html" role="test" />
-    </dir> <!-- /examples/flex -->
-    <file baseinstalldir="XML" name="example_components.php" role="test" />
-    <file baseinstalldir="XML" name="example_hello.php" role="test" />
-    <file baseinstalldir="XML" name="example_mediaplayback.php" role="test" />
-    <file baseinstalldir="XML" name="example_menubar.php" role="test" />
-    <file baseinstalldir="XML" name="example_menubar_file.php" role="test" />
-    <file baseinstalldir="XML" name="index.html" role="test" />
-    <file baseinstalldir="XML" name="menubar.xml" role="test" />
-   </dir> <!-- /examples -->
-   <dir name="MXML">
-    <dir name="Compiler">
-     <file baseinstalldir="XML" name="Array.php" role="php" />
-     <file baseinstalldir="XML" name="Binding.php" role="php" />
-     <file baseinstalldir="XML" name="Columns.php" role="php" />
-     <file baseinstalldir="XML" name="DataProvider.php" role="php" />
-     <file baseinstalldir="XML" name="MetaData.php" role="php" />
-     <file baseinstalldir="XML" name="Model.php" role="php" />
-     <file baseinstalldir="XML" name="Object.php" role="php" />
-     <file baseinstalldir="XML" name="Script.php" role="php" />
-     <file baseinstalldir="XML" name="Style.php" role="php" />
-     <file baseinstalldir="XML" name="XML.php" role="php" />
-    </dir> <!-- /MXML/Compiler -->
-    <dir name="Containers">
-     <file baseinstalldir="XML" name="Accordion.php" role="php" />
-     <file baseinstalldir="XML" name="Box.php" role="php" />
-     <file baseinstalldir="XML" name="Canvas.php" role="php" />
-     <file baseinstalldir="XML" name="Container.php" role="php" />
-     <file baseinstalldir="XML" name="ControlBar.php" role="php" />
-     <file baseinstalldir="XML" name="DividedBox.php" role="php" />
-     <file baseinstalldir="XML" name="Form.php" role="php" />
-     <file baseinstalldir="XML" name="FormHeading.php" role="php" />
-     <file baseinstalldir="XML" name="FormItem.php" role="php" />
-     <file baseinstalldir="XML" name="Grid.php" role="php" />
-     <file baseinstalldir="XML" name="GridItem.php" role="php" />
-     <file baseinstalldir="XML" name="GridRow.php" role="php" />
-     <file baseinstalldir="XML" name="HBox.php" role="php" />
-     <file baseinstalldir="XML" name="HDividedBox.php" role="php" />
-     <file baseinstalldir="XML" name="LinkBar.php" role="php" />
-     <file baseinstalldir="XML" name="NavBar.php" role="php" />
-     <file baseinstalldir="XML" name="Panel.php" role="php" />
-     <file baseinstalldir="XML" name="TabBar.php" role="php" />
-     <file baseinstalldir="XML" name="TabNavigator.php" role="php" />
-     <file baseinstalldir="XML" name="Tile.php" role="php" />
-     <file baseinstalldir="XML" name="TitleWindow.php" role="php" />
-     <file baseinstalldir="XML" name="VBox.php" role="php" />
-     <file baseinstalldir="XML" name="VDividedBox.php" role="php" />
-     <file baseinstalldir="XML" name="ViewStack.php" role="php" />
-    </dir> <!-- /MXML/Containers -->
-    <dir name="Controls">
-     <dir name="GridClasses">
-      <file baseinstalldir="XML" name="DataGridColumn.php" role="php" />
-     </dir> <!-- /MXML/Controls/GridClasses -->
-     <dir name="ListClasses">
-      <file baseinstalldir="XML" name="ScrollSelectList.php" role="php" />
-     </dir> <!-- /MXML/Controls/ListClasses -->
-     <dir name="ScrollClasses">
-      <file baseinstalldir="XML" name="ScrollBar.php" role="php" />
-     </dir> <!-- /MXML/Controls/ScrollClasses -->
-     <dir name="SliderClasses">
-      <file baseinstalldir="XML" name="Slider.php" role="php" />
-     </dir> <!-- /MXML/Controls/SliderClasses -->
-     <file baseinstalldir="XML" name="Button.php" role="php" />
-     <file baseinstalldir="XML" name="CheckBox.php" role="php" />
-     <file baseinstalldir="XML" name="ComboBase.php" role="php" />
-     <file baseinstalldir="XML" name="ComboBox.php" role="php" />
-     <file baseinstalldir="XML" name="DataGrid.php" role="php" />
-     <file baseinstalldir="XML" name="DateChooser.php" role="php" />
-     <file baseinstalldir="XML" name="DateField.php" role="php" />
-     <file baseinstalldir="XML" name="HRule.php" role="php" />
-     <file baseinstalldir="XML" name="HScrollBar.php" role="php" />
-     <file baseinstalldir="XML" name="HSlider.php" role="php" />
-     <file baseinstalldir="XML" name="Image.php" role="php" />
-     <file baseinstalldir="XML" name="Label.php" role="php" />
-     <file baseinstalldir="XML" name="Link.php" role="php" />
-     <file baseinstalldir="XML" name="List.php" role="php" />
-     <file baseinstalldir="XML" name="Loader.php" role="php" />
-     <file baseinstalldir="XML" name="MediaController.php" role="php" />
-     <file baseinstalldir="XML" name="MediaDisplay.php" role="php" />
-     <file baseinstalldir="XML" name="MediaPlayback.php" role="php" />
-     <file baseinstalldir="XML" name="MenuBar.php" role="php" />
-     <file baseinstalldir="XML" name="NumericStepper.php" role="php" />
-     <file baseinstalldir="XML" name="ProgressBar.php" role="php" />
-     <file baseinstalldir="XML" name="RadioButton.php" role="php" />
-     <file baseinstalldir="XML" name="RadioButtonGroup.php" role="php" />
-     <file baseinstalldir="XML" name="SimpleButton.php" role="php" />
-     <file baseinstalldir="XML" name="Spacer.php" role="php" />
-     <file baseinstalldir="XML" name="Text.php" role="php" />
-     <file baseinstalldir="XML" name="TextArea.php" role="php" />
-     <file baseinstalldir="XML" name="TextInput.php" role="php" />
-     <file baseinstalldir="XML" name="Tree.php" role="php" />
-     <file baseinstalldir="XML" name="VRule.php" role="php" />
-     <file baseinstalldir="XML" name="VScrollBar.php" role="php" />
-     <file baseinstalldir="XML" name="VSlider.php" role="php" />
-    </dir> <!-- /MXML/Controls -->
-    <dir name="Core">
-     <file baseinstalldir="XML" name="Application.php" role="php" />
-     <file baseinstalldir="XML" name="Repeater.php" role="php" />
-     <file baseinstalldir="XML" name="ScrollView.php" role="php" />
-     <file baseinstalldir="XML" name="UIComponent.php" role="php" />
-     <file baseinstalldir="XML" name="UIObject.php" role="php" />
-     <file baseinstalldir="XML" name="View.php" role="php" />
-    </dir> <!-- /MXML/Core -->
-    <dir name="Effects">
-     <file baseinstalldir="XML" name="CompositeEffect.php" role="php" />
-     <file baseinstalldir="XML" name="Effect.php" role="php" />
-     <file baseinstalldir="XML" name="Fade.php" role="php" />
-     <file baseinstalldir="XML" name="MaskEffect.php" role="php" />
-     <file baseinstalldir="XML" name="Move.php" role="php" />
-     <file baseinstalldir="XML" name="Parallel.php" role="php" />
-     <file baseinstalldir="XML" name="Pause.php" role="php" />
-     <file baseinstalldir="XML" name="Resize.php" role="php" />
-     <file baseinstalldir="XML" name="Sequence.php" role="php" />
-     <file baseinstalldir="XML" name="TweenEffect.php" role="php" />
-     <file baseinstalldir="XML" name="WipeDown.php" role="php" />
-     <file baseinstalldir="XML" name="WipeLeft.php" role="php" />
-     <file baseinstalldir="XML" name="WipeRight.php" role="php" />
-     <file baseinstalldir="XML" name="WipeUp.php" role="php" />
-     <file baseinstalldir="XML" name="Zoom.php" role="php" />
-    </dir> <!-- /MXML/Effects -->
-    <dir name="Formatters">
-     <file baseinstalldir="XML" name="CurrencyFormatter.php" role="php" />
-     <file baseinstalldir="XML" name="DateFormatter.php" role="php" />
-     <file baseinstalldir="XML" name="Formatter.php" role="php" />
-     <file baseinstalldir="XML" name="NumberFormatter.php" role="php" />
-     <file baseinstalldir="XML" name="PhoneFormatter.php" role="php" />
-     <file baseinstalldir="XML" name="ZipCodeFormatter.php" role="php" />
-    </dir> <!-- /MXML/Formatters -->
-    <dir name="ServiceTags">
-     <file baseinstalldir="XML" name="Argument.php" role="php" />
-     <file baseinstalldir="XML" name="HTTPService.php" role="php" />
-     <file baseinstalldir="XML" name="Method.php" role="php" />
-     <file baseinstalldir="XML" name="Operation.php" role="php" />
-     <file baseinstalldir="XML" name="RemoteObject.php" role="php" />
-     <file baseinstalldir="XML" name="Request.php" role="php" />
-     <file baseinstalldir="XML" name="WebService.php" role="php" />
-    </dir> <!-- /MXML/ServiceTags -->
-    <dir name="Styles">
-     <file baseinstalldir="XML" name="CSSStyleDeclaration.php" role="php" />
-    </dir> <!-- /MXML/Styles -->
-    <dir name="Validators">
-     <file baseinstalldir="XML" name="CreditCardValidator.php" role="php" />
-     <file baseinstalldir="XML" name="DateValidator.php" role="php" />
-     <file baseinstalldir="XML" name="EmailValidator.php" role="php" />
-     <file baseinstalldir="XML" name="NumberValidator.php" role="php" />
-     <file baseinstalldir="XML" name="PhoneNumberValidator.php" role="php" />
-     <file baseinstalldir="XML" name="SocialSecurityValidator.php" role="php" />
-     <file baseinstalldir="XML" name="StringValidator.php" role="php" />
-     <file baseinstalldir="XML" name="Validator.php" role="php" />
-     <file baseinstalldir="XML" name="ZipCodeValidator.php" role="php" />
-    </dir> <!-- /MXML/Validators -->
-    <file baseinstalldir="XML" name="Document.php" role="php" />
-    <file baseinstalldir="XML" name="Element.php" role="php" />
-    <file baseinstalldir="XML" name="Parser.php" role="php" />
-   </dir> <!-- /MXML -->
-   <file baseinstalldir="XML" name="MXML.php" role="php" />
-  </dir> <!-- / -->
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="XML" md5sum="9a6b4303eb6b7aa9ced8c8eb826c9bcc" name="examples/example_components.php" role="test" />
+   <file baseinstalldir="XML" md5sum="6a9348867d65d8ccdde34bc9ec7492dd" name="examples/example_hello.php" role="test" />
+   <file baseinstalldir="XML" md5sum="7a4a5a26ffbb86bba053b7af5042bfac" name="examples/example_mediaplayback.php" role="test" />
+   <file baseinstalldir="XML" md5sum="c4f37ccae7ca224a6059a2d086531f52" name="examples/example_menubar.php" role="test" />
+   <file baseinstalldir="XML" md5sum="91b51335b4213d004ad421568e5b6ee2" name="examples/example_menubar_file.php" role="test" />
+   <file baseinstalldir="XML" md5sum="e95b682b928c449abe265c2414084454" name="examples/index.html" role="test" />
+   <file baseinstalldir="XML" md5sum="ddc605423cd7fc1414907c41b147407c" name="examples/menubar.xml" role="test" />
+   <file baseinstalldir="XML" md5sum="d92b8a9fc79f36fa528ecc62fb385848" name="examples/flex/components.html" role="test" />
+   <file baseinstalldir="XML" md5sum="ac278e937acf05537e58c51c867512e1" name="examples/flex/hello.html" role="test" />
+   <file baseinstalldir="XML" md5sum="2d3e4ab380c5eb433eaab59d4ebb6439" name="examples/flex/mediaplayback.html" role="test" />
+   <file baseinstalldir="XML" md5sum="aa096be8a75e58988d699d59069b1a41" name="examples/flex/menubar.html" role="test" />
+  </dir>
  </contents>
  <dependencies>
   <required>
@@ -223,4 +69,21 @@ Initial release.
   </required>
  </dependencies>
  <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.3.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2010-04-12</date>
+   <license uri="http://www.php.net/license">PHP License</license>
+   <notes>
+Initial release.
+   </notes>
+  </release>
+ </changelog>
 </package>
